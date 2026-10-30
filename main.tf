@@ -166,7 +166,7 @@ resource "aws_cloudwatch_event_rule" "s3_events_rule" {
         "PutBucketPolicy",
         "PutBucketAcl",
         "PutBucketPublicAccessBlock",
-        "DeletePublicAccessBlock"
+        "DeleteBucketPublicAccessBlock"
       ]
     }
   })
