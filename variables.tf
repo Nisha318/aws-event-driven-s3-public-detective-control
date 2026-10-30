@@ -8,5 +8,5 @@ variable "aws_region" {
 variable "notification_email" {
   description = "Email address for SNS notifications"
   type        = string
-  default     = "info@devsecblueprint.com"
+  default     = "security@example.com"
 }
